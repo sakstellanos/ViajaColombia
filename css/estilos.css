@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    width: 100%;
+}
+
+aside section {
+    height: 70px;
+    padding: 10px 10px 10px 30%;
+    margin-bottom: 10px;
+
+    background: rgb(255,85,70) no-repeat 5% center;
+}
+
+aside section:nth-child(1) {
+    background-image: url("../img/alarm.svg");
+}
+
+aside section:nth-child(2) {
+    background-image: url("../img/calendar.svg");
+}
+
+aside section:nth-child(3) {
+    background-image: url("../img/music.svg");
+    margin-bottom: 0px;
+}
+
+blockquote {
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 20px;
+
+    color: rgb(70, 70, 70);
+    font-style: italic;
+
+    background: #fff;
+}
+
+body {
+    color: #fff;
+    font-family: Cambria;
+
+    background: url('../img/bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0;
+    margin-top: 20px;
+
+    background: rgb(70,70,70);
+}
+
+footer a {
+    display: inline-block;
+
+    box-sizing: border-box;
+    padding: .5em;
+    border-radius: 50%;
+    margin-right: 3%;
+
+    color: #fdfdfd;
+    font-size: 1.2em;
+
+    transition: all .3s;
+}
+
+footer a:hover {
+    opacity: .8;
+}
+
+footer a:nth-child(1) {
+    background: #3A5795;
+}
+
+footer a:nth-child(2) {
+    background: #55ACEE;
+}
+
+footer a:nth-child(3) {
+    background: #E62117;
+}
+
+footer p {
+    margin-top: 10px;
+
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    padding: 30px 0;
+
+    background: rgb(70, 70, 70);
+}
+
+header h1 {
+    font-family: merienda-one;
+    font-size: 2em;
+}
+
+header h1 span:nth-child(1) {
+    color: #FF0;
+}
+header h1 span:nth-child(2) {
+    color: #0FF;
+}
+header h1 span:nth-child(3) {
+    color: #F00;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    overflow: auto;
+
+    margin: 15px 0;
+
+    font-weight: bold;
+}
+
+nav a {
+    color: rgb(70, 70, 70);
+
+    transition: all .2s;
+}
+
+nav a:hover {
+    color: rgb(255, 85, 70);
+}
+
+nav li {
+    float: left;
+
+    margin: 8px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.planes {
+    position: relative;
+
+    width: 100%;
+    height: 290px;
+
+    background: #f00;
+}
+
+.planes:nth-child(5) {
+    margin: 20px 0;
+    background: url("../img/popayan2.jpg") no-repeat center center;
+}
+
+.planes:nth-child(6) {
+    background: url("../img/puri.jpg") no-repeat center center;
+}
+
+.planes p {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    padding: 5px 0px;
+
+    text-align: center;
+
+    background-color: rgb(255, 85, 70);
+}
+
+.redes {
+    text-align: center;
+}
+
+#imgPrinc {
+    position: relative;
+
+    width: 100%;
+    height: 290px;
+
+    background: url('../img/agustin3.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#imgPrinc p {
+    position: absolute;
+    bottom: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+
+    background: rgb(255, 85, 70);
+}
+
+#imgPrinc + p {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px 0;
+
+    font-size: 1.3em;
+    font-style: italic;
+
+    background: rgb(70, 70, 70);
+}
