@@ -11,12 +11,21 @@ aside {
     width: 100%;
 }
 
+aside p {
+    position: absolute;
+    top: 50%;
+
+    -webkit-transform: translateY(-50%);
+}
+
 aside section {
+    position:relative;
+
     height: 70px;
-    padding: 10px 10px 10px 30%;
+    padding: 10px 10px 10px 96.984px;
     margin-bottom: 10px;
 
-    background: rgb(255,85,70) no-repeat 5% center;
+    background: rgb(255,85,70) no-repeat 16.1664px center;
 }
 
 aside section:nth-child(1) {
@@ -33,6 +42,8 @@ aside section:nth-child(3) {
 }
 
 blockquote {
+    clear: both;
+
     box-sizing: border-box;
     padding: 20px;
     margin-top: 20px;
@@ -226,4 +237,54 @@ nav ul {
     font-style: italic;
 
     background: rgb(70, 70, 70);
+}
+
+@media screen and (min-width: 480px) {
+    .planes {
+        float: left;
+
+        width: 49%;
+    }
+
+    .planes:nth-child(5) {
+        margin-right: 2%;
+    }
+
+    .planes:nth-child(6) {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #imgPrinc {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    aside, .planes {
+        margin-bottom: 20px;
+    }
+
+    aside {
+        float: left;
+
+        width: 32%;
+    }
+
+    .contenedor {
+        width: 80%;
+    }
+
+    .planes {
+        width: 32%;
+    }
+
+    .planes:nth-child(5) {
+        margin: 0 2%;
+    }
+
+    .planes:nth-child(6) {
+        margin: 0;
+    }
 }
